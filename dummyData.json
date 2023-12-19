@@ -1,0 +1,242 @@
+{
+  "builderName": "Fernando Torres",
+  "available": true,
+  "requested": false,
+  "requests": [
+    {
+      "firstName": "Sophia",
+      "lastName": "Martinez",
+      "email": "sophia@email.com",
+      "studentId": 98765,
+      "requestDate": 20231218,
+      "requestDuration": 7
+    }
+  ],
+  "checkedOutBy": null,
+  "specs": {
+    "year": 2005,
+    "tunerType": "slotted",
+    "topWood": "spruce",
+    "backAndSides": "Indian Rosewood",
+    "scaleLength": 650,
+    "nutWidth": 52
+  },
+  "images": [
+    "https://example.com/guitar_photo1.jpg",
+    "https://example.com/guitar_photo2.jpg",
+    "https://example.com/guitar_photo3.jpg"
+  ],
+  "description": "Crafted in 2005 by Fernando Torres, this classical guitar boasts Indian Rosewood back and sides, a spruce top, and elegant slotted tuners. The guitar has a rich, warm tone with a balanced sound across the fretboard. Its scale length is 650mm, and the nut width is 52mm. Currently available for checkout, it is a perfect choice for students and enthusiasts alike."
+},
+{
+  "builderName": "Rene LaCote",
+  "available": true,
+  "requested": true,
+  "requests": [
+    {
+      "firstName": "Alan",
+      "lastName": "Perlman",
+      "email": "alan@alan.com",
+      "studentId": 0,
+      "requestDate": 20231215,
+      "requestDuration": 3
+    }
+  ],
+  "checkedOutBy": {
+    "firstName": "Brady",
+    "lastName": "Garland",
+    "studentId": 123456,
+    "durationEnd": 20240130
+  },
+  "specs": {
+    "year": 1845,
+    "tunerType": "peg",
+    "topWood": "cedar",
+    "backAndSides": "Swiss Pear",
+    "scaleLength": 120,
+    "nutWidth": 50
+  },
+  "images": ["https://images.app.goo.gl/8CxBLRSvuf8WhaaW7"],
+  "description": "Built in 1845 by Rene LaCote, this guitar features swiss pear wood back and sides, a cedar top, and a unique floating spruce top inside the guitar body. It was famously played by Dionisio Aguado in his final concert 1875, and crack on the lower bout, now repaired, is rumored to have been made when he dropped the guitar in the street as he was struck by a passing street car."
+},
+{
+  "builderName": "Isabella Ramirez",
+  "available": true,
+  "requested": false,
+  "requests": [
+    {
+      "firstName": "Elijah",
+      "lastName": "Wang",
+      "email": "elijah@email.com",
+      "studentId": 65432,
+      "requestDate": 20231220,
+      "requestDuration": 2
+    }
+  ],
+  "checkedOutBy": null,
+  "specs": {
+    "year": 1998,
+    "tunerType": "slotted",
+    "topWood": "cedar",
+    "backAndSides": "Brazilian Rosewood",
+    "scaleLength": 640,
+    "nutWidth": 54
+  },
+  "images": [
+    "https://example.com/guitar2_photo1.jpg",
+    "https://example.com/guitar2_photo2.jpg",
+    "https://example.com/guitar2_photo3.jpg"
+  ],
+  "description": "Crafted in 1998 by Isabella Ramirez, this classical guitar features a cedar top, Brazilian Rosewood back and sides, and finely crafted slotted tuners. With a scale length of 640mm and a nut width of 54mm, it offers a unique and vibrant tone. Available for a 2-day checkout period."
+},
+{
+  "builderName": "Antonio Hernandez",
+  "available": false,
+  "requested": true,
+  "requests": [
+    {
+      "firstName": "Olivia",
+      "lastName": "Gomez",
+      "email": "olivia@email.com",
+      "studentId": 78901,
+      "requestDate": 20231222,
+      "requestDuration": 3
+    }
+  ],
+  "checkedOutBy": null,
+  "specs": {
+    "year": 2010,
+    "tunerType": "slotted",
+    "topWood": "spruce",
+    "backAndSides": "Indian Rosewood",
+    "scaleLength": 655,
+    "nutWidth": 53
+  },
+  "images": [
+    "https://example.com/guitar3_photo1.jpg",
+    "https://example.com/guitar3_photo2.jpg",
+    "https://example.com/guitar3_photo3.jpg"
+  ],
+  "description": "Crafted in 2010 by Antonio Hernandez, this classical guitar features an Indian Rosewood body, a spruce top, and exquisite slotted tuners. With a scale length of 655mm and a nut width of 53mm, it delivers a clear and resonant tone. Currently requested for a 3-day checkout."
+},
+{
+  "builderName": "Gabriela Martinez",
+  "available": true,
+  "requested": false,
+  "requests": [
+    {
+      "firstName": "Mason",
+      "lastName": "Chang",
+      "email": "mason@email.com",
+      "studentId": 54321,
+      "requestDate": 20231225,
+      "requestDuration": 1
+    }
+  ],
+  "checkedOutBy": null,
+  "specs": {
+    "year": 2002,
+    "tunerType": "peg",
+    "topWood": "cedar",
+    "backAndSides": "Maple",
+    "scaleLength": 630,
+    "nutWidth": 51
+  },
+  "images": [
+    "https://example.com/guitar4_photo1.jpg",
+    "https://example.com/guitar4_photo2.jpg",
+    "https://example.com/guitar4_photo3.jpg"
+  ],
+  "description": "Crafted in 2002 by Gabriela Martinez, this classical guitar boasts a cedar top, Maple back and sides, and classic peg tuners. With a scale length of 630mm and a nut width of 51mm, it provides a bright and articulate tone. Available for a 1-day checkout."
+},
+{
+  "builderName": "Carlos Rodriguez",
+  "available": false,
+  "requested": true,
+  "requests": [
+    {
+      "firstName": "Ava",
+      "lastName": "Johnson",
+      "email": "ava@email.com",
+      "studentId": 45678,
+      "requestDate": 20231228,
+      "requestDuration": 2
+    }
+  ],
+  "checkedOutBy": null,
+  "specs": {
+    "year": 1995,
+    "tunerType": "slotted",
+    "topWood": "spruce",
+    "backAndSides": "Mahogany",
+    "scaleLength": 660,
+    "nutWidth": 52
+  },
+  "images": [
+    "https://example.com/guitar5_photo1.jpg",
+    "https://example.com/guitar5_photo2.jpg",
+    "https://example.com/guitar5_photo3.jpg"
+  ],
+  "description": "Crafted in 1995 by Carlos Rodriguez, this classical guitar features a spruce top, Mahogany back and sides, and elegant slotted tuners. With a scale length of 660mm and a nut width of 52mm, it delivers a warm and resonant tone. Currently requested for a 2-day checkout."
+},
+{
+  "builderName": "Elena Garcia",
+  "available": true,
+  "requested": false,
+  "requests": [
+    {
+      "firstName": "Noah",
+      "lastName": "Smith",
+      "email": "noah@email.com",
+      "studentId": 34567,
+      "requestDate": 20231231,
+      "requestDuration": 3
+    }
+  ],
+  "checkedOutBy": null,
+  "specs": {
+    "year": 2015,
+    "tunerType": "peg",
+    "topWood": "cedar",
+    "backAndSides": "Rosewood",
+    "scaleLength": 645,
+    "nutWidth": 53
+  },
+  "images": [
+    "https://example.com/guitar6_photo1.jpg",
+    "https://example.com/guitar6_photo2.jpg",
+    "https://example.com/guitar6_photo3.jpg"
+  ],
+  "description": "Crafted in 2015 by Elena Garcia, this classical guitar features a cedar top, Rosewood back and sides, and classic peg tuners. With a scale length of 645mm and a nut width of 53mm, it provides a balanced and warm tone. Available for a 3-day checkout."
+},
+{
+  "builderName": "Juan Rodriguez",
+  "available": true,
+  "requested": false,
+  "requests": [
+    {
+      "firstName": "Lily",
+      "lastName": "Brown",
+      "email": "lily@email.com",
+      "studentId": 87654,
+      "requestDate": 20240102,
+      "requestDuration": 1
+    }
+  ],
+  "checkedOutBy": null,
+  "specs": {
+    "year": 2008,
+    "tunerType": "slotted",
+    "topWood": "spruce",
+    "backAndSides": "Walnut",
+    "scaleLength": 655,
+    "nutWidth": 52
+  },
+  "images": [
+    "https://example.com/guitar7_photo1.jpg",
+    "https://example.com/guitar7_photo2.jpg",
+    "https://example.com/guitar7_photo3.jpg"
+  ],
+  "description": "Crafted in 2008 by Juan Rodriguez, this classical guitar features a spruce top, Walnut back and sides, and elegant slotted tuners. With a scale length of 655mm and a nut width of 52mm, it delivers a balanced and expressive tone. Available for a 1-day checkout."
+}
+

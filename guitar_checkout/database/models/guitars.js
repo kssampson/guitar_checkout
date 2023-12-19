@@ -4,9 +4,10 @@ const guitarsSchema = mongoose.Schema({
   builderName: String,
   available: Boolean,
   requested: Boolean,
-  requestBy: [{
+  requests: [{
     firstName: String,
     lastName: String,
+    email: String,
     studentId: Number,
     requestDate: Date,
     requestDuration: Number
@@ -18,15 +19,18 @@ const guitarsSchema = mongoose.Schema({
     duration: Number
   },
   specs: {
+    year: Number,
     tunerType: String,
     topWood: String,
     backAndSides: String,
     scaleLength: Number,
     nutWidth: Number
   },
-  image: String,
+  images: Array,
   description: String
 });
+
+guitarsSchema.index({builderName: 1, year: 1}, {unique: true});
 
 const Guitars = mongoose.model('Guitars', guitarsSchema);
 
